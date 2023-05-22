@@ -1,0 +1,26 @@
+.flex{
+    display: flex;
+    justify-content: center;
+}
+.botones{
+    margin: 15px;
+    margin-top: 18px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: red;
+}
+.botones:hover{
+    cursor: pointer;
+    border-style: none;
+}
+.botonAgregar{
+    background-color: rgb(244, 244, 244);
+    border-radius: 5px;
+    padding: 7px;
+    border-style: none;
+}
+.botonAgregar:hover{
+    border-style: solid;
+    cursor: pointer;
+}

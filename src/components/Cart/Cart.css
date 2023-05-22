@@ -1,0 +1,84 @@
+.productosCarrito{
+    margin: 10px;
+    border-style: solid;
+    border-radius: 5px;
+    color: black;
+    background-color: rgb(188, 188, 188);
+    padding: 10px;
+    width: 150px;
+}
+.botonEliminarProducto{
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 12px; 
+    padding: 6px;
+    border-style: none;
+}
+.botonComprar{
+    background-color: rgb(18, 175, 84);
+    border-radius: 5px;
+    padding: 6px;
+    margin-left: 10px; 
+    border-style: none;
+}
+.botonVaciar{
+    background-color: white;
+    border-radius: 5px;
+    padding: 6px;
+    margin-right: 10px; 
+    border-style: none;
+}
+.botonEliminarProducto:hover, .botonComprar:hover, .botonVaciar:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+.titulo{
+    font-size: 20px;
+    margin: 0px;
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+.Link{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    border-style: none;
+    padding: 10px;
+    margin: 15px;
+    background-color: white;
+    width: 260px;
+    border-radius: 5px;
+}
+.Link:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+.contenedorComprasVacio{
+    width: 100%;
+    height: 88vh;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+}
+.contenedorCompras{
+    width: 100%;
+    min-height: 88vh;
+}
+.noMargin{
+    margin: 0px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}.margin{
+    margin: 10px;
+}
+.montoTotal{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+}
+.padreCarrito{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}

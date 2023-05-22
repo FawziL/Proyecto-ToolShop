@@ -1,0 +1,90 @@
+nav{
+    display: flex;
+    background-color: black;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.logo{
+    font-size: 26px;
+    color: white;
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 200px;
+    text-decoration: underline;
+}
+.NavLink{
+    text-decoration: none;
+}
+.navVerde{
+    margin-top: 0px;
+    border-radius: 15px;
+    border-style: solid;
+    background-color: rgb(244, 244, 244);
+    text-decoration: none;
+    color: black;
+    padding: 4px;
+    width: 114.5px;
+}
+.navRojo{
+    margin-top: 0px;
+    border-radius: 15px;
+    border-style: solid;
+    background-color: rgb(133, 127, 127);
+    text-decoration: none;
+    color: black;
+    padding: 4px;
+    width: 114.5px;
+}
+.navRojoDos{
+    margin-top: 0px;
+    border-radius: 15px;
+    border-style: solid;
+    background-color: rgb(133, 127, 127);
+    text-decoration: none;
+    color: black;
+    padding: 4px;
+
+}
+.navVerdeDos{
+    margin-top: 0px;
+    border-radius: 15px;
+    border-style: solid;
+    background-color: rgb(244, 244, 244);
+    text-decoration: none;
+    color: black;
+    padding: 4px;
+}
+.componentes-NavBar {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0px;
+}
+  
+li a{
+    display: block;
+}
+.menu-vertical {
+    position: absolute;
+    display: none;
+    list-style: none;
+    padding: 10px 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.componentes-NavBar li:hover .menu-vertical {
+    display: block;
+}
+.menu-vertical a:hover {
+    background-color: rgb(23, 23, 118) ;
+    color: white;
+}
+.menu-vertical li {
+    color: white;
+}
+.elements-NavBar {
+    color: white;
+    text-decoration: none;
+}
+.cartWidget{
+  margin-right: 86px;
+}

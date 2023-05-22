@@ -1,0 +1,10 @@
+.App {
+  text-align: center;
+  color: white;
+}
+
+.imagenFondo{
+  background: url(../public/img/img1Encab.png);
+  background-size: cover;
+}
+
