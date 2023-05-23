@@ -6,12 +6,11 @@ import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailCont
 import { BrowserRouter, Routes, Route} from 'react-router-dom'
 import { CartContextProvider } from './Context/CartContext';
 import Cart from './components/Cart/Cart';
-import Footer from './components/Footer/Footer';
 import Form from './components/Form/Form';
-
+import Footer from './components/Footer/Footer';
+import Contact from './components/Contact/Contact';
 
 function App() {
-  
   return (
     <div className="App imagenFondo">
     <CartContextProvider>
@@ -24,6 +23,7 @@ function App() {
               <Route path='/detail/:productId' element={<ItemDetailContainer/>}/>
               <Route path='/cart' element={<Cart />} />
               <Route path='/checkout' element={<Form/>}/>
+              <Route path='/aboutUs' element={<Contact/>}/>
               <Route path='*' element={<h1>NOT FOUND</h1>}/>
             </Routes>
         </BrowserRouter>

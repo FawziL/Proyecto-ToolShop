@@ -2,65 +2,60 @@ nav{
     display: flex;
     background-color: black;
     width: 100%;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    padding: 10px;
 }
 .logo{
-    font-size: 26px;
+    font-size: 22px;
     color: white;
-    margin-top: 10px;
-    margin-left: 20px;
     width: 200px;
     text-decoration: underline;
+    margin: 0px
 }
 .NavLink{
     text-decoration: none;
 }
 .navVerde{
-    margin-top: 0px;
     border-radius: 15px;
     border-style: solid;
     background-color: rgb(244, 244, 244);
     text-decoration: none;
     color: black;
-    padding: 4px;
-    width: 114.5px;
+    padding: 4px 24px 4px 24px;
 }
 .navRojo{
-    margin-top: 0px;
     border-radius: 15px;
     border-style: solid;
-    background-color: rgb(133, 127, 127);
+    background-color: rgb(103, 101, 101);
     text-decoration: none;
     color: black;
-    padding: 4px;
-    width: 114.5px;
+    padding: 4px 24px 4px 24px;
 }
 .navRojoDos{
-    margin-top: 0px;
     border-radius: 15px;
+    padding: 20px;
     border-style: solid;
-    background-color: rgb(133, 127, 127);
+    background-color: rgb(103, 101, 101);
     text-decoration: none;
     color: black;
-    padding: 4px;
-
+    padding: 5px;
 }
 .navVerdeDos{
-    margin-top: 0px;
     border-radius: 15px;
+    padding: 20px;
     border-style: solid;
     background-color: rgb(244, 244, 244);
     text-decoration: none;
     color: black;
-    padding: 4px;
+    padding: 5px;
 }
 .componentes-NavBar {
     list-style: none;
     display: flex;
     justify-content: space-around;
     padding: 0px;
+    margin: 0px;
 }
-  
 li a{
     display: block;
 }
@@ -68,7 +63,7 @@ li a{
     position: absolute;
     display: none;
     list-style: none;
-    padding: 10px 10px;
+    padding: 10px 10px 0px 10px;
     background-color: rgba(0, 0, 0, 0.5);
 }
 .componentes-NavBar li:hover .menu-vertical {
@@ -86,5 +81,5 @@ li a{
     text-decoration: none;
 }
 .cartWidget{
-  margin-right: 86px;
+    margin: 0px;
 }

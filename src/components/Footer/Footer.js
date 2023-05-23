@@ -6,10 +6,6 @@ const Footer = () =>{
         <footer>
             <div className="footerContainer">
                 <div>
-                    <p >Sí quieres saber más de nosotros, te invitamos a darle click</p>
-                    <p><a href="/">Acerca de nosotros...</a></p>    
-                </div>
-                <div>
                     <p>¡Síguenos en nuestras redes sociales!</p>
                     <a href='https://www.facebook.com/'>
                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"  viewBox="0 0 16 16">

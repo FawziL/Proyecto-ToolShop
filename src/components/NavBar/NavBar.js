@@ -18,12 +18,14 @@ const NavBar = () => {
 
     return(
         <nav className="NavBar">
-            <NavLink to='/' className="NavLink" >
-                <p className="logo">Aair-t-ToolShop</p>
+            <NavLink to='/'>
+                <p className="logo">AirT-ToolShop</p>
             </NavLink>
             <ul className="componentes-NavBar">
                 <li id="elements-NavBar">
-                    <NavLink to="/productos" className={({ isActive }) => (isActive ? 'navRojo' : 'navVerde')}>Productos</NavLink>
+                    <NavLink to="/productos" className={({ isActive }) => (isActive ? 'navRojo' : 'navVerde')}>
+                        Productos
+                    </NavLink>
                     <ul className="menu-vertical">
                     {categories.map((cat) => (
                     <NavLink
@@ -37,6 +39,9 @@ const NavBar = () => {
                     </ul>
                 </li>
             </ul>
+            <NavLink to='/aboutUs' className={({ isActive }) => (isActive ? 'navRojo' : 'navVerde')}>
+               Contacto
+            </NavLink>
             <div className='cartWidget'>
                 <CartWidget />
             </div>
