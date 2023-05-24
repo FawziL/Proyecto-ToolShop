@@ -76,23 +76,45 @@ const Form = () =>{
     return(
         <div className='ContenedorProductos'>
             <div className='flex'>  
-                <h1 className='color'>Coloca tus datos de contacto y pago</h1>
+                <h1 className='textColor'>Coloca tus datos de contacto y pago</h1>
                 <div id='confirmacion'></div>
             </div>
             <div className='form'>
-                <div className='formInput'>
-                    <p>Nombre y Apellido:</p>
-                    <input type='text' id='nombre' placeholder='Nombre y Apellido:'/>
+
+
+                <div className="form-group">
+                    <label htmlFor="Nombre">Nombre y Apellido:</label>
+                    <input
+                        type="text"
+                        id='nombre'
+                        required
+                        placeholder="Nombre"
+                    />
                 </div>
-                <div className='formInput'>
-                    <p>Correo electrónico:</p>
-                    <input type='email' id='email' placeholder='Correo electrónico:'/>
+
+                <div className="form-group">
+                    <label htmlFor="Nombre">Correo electrónico:</label>
+                    <input
+                        type='email' 
+                        id='email'
+                        required
+                        placeholder="email"
+                    />
                 </div>
-                <div className='formInput'>
-                    <p>Número telefónico:</p>
-                    <input type='number' id='phone' placeholder='Número telefónico:'/>
+
+                <div className="form-group">
+                    <label htmlFor="Nombre">Número telefónico:</label>
+                    <input
+                        type='tel' 
+                        id='phone' 
+                        placeholder='Número telefónico:'
+                        required
+                    />
                 </div>
-                <button onClick={() => createOrder()} className='botonComprar'>Generar Orden</button>
+
+                <button onClick={() => createOrder()} className='botonComprar'>
+                    Generar Orden
+                </button>
             </div>     
         </div>
     )

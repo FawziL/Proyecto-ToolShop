@@ -1,9 +1,8 @@
 nav{
-    display: flex;
     background-color: black;
     width: 100%;
-    justify-content: space-around;
-    padding: 10px;
+    display: flex;
+    justify-content: space-between;
 }
 .logo{
     font-size: 22px;
@@ -22,6 +21,8 @@ nav{
     text-decoration: none;
     color: black;
     padding: 4px 24px 4px 24px;
+    min-width: 120px;
+    margin: 5px;
 }
 .navRojo{
     border-radius: 15px;
@@ -30,6 +31,8 @@ nav{
     text-decoration: none;
     color: black;
     padding: 4px 24px 4px 24px;
+    min-width: 120px;
+    margin: 5px;
 }
 .navRojoDos{
     border-radius: 15px;
@@ -79,7 +82,4 @@ li a{
 .elements-NavBar {
     color: white;
     text-decoration: none;
-}
-.cartWidget{
-    margin: 0px;
 }

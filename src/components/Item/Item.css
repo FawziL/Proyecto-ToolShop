@@ -36,3 +36,20 @@
 .margin{
     margin: 10px;
 }
+
+/* Para dispositivos móviles pequeños */
+@media (max-width: 480px) {
+    .cards{
+        margin: 15px;
+    }
+    .imgProduct{
+        width: 250px;
+        height: 150px;
+    }
+    .cards h3{
+        font-size: 22px;
+        margin: 0px;
+        margin-bottom: 10px
+    }
+}
+    

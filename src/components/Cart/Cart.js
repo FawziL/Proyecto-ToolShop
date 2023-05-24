@@ -17,8 +17,10 @@ const Cart = () => {
     }
     return (
         <div className='contenedorCompras'>
+            <div className='flex'>
+                <h1 className='textColor'>Carrito de compras</h1>
+            </div>
             
-            <h1 className='color'>Carrito de compras</h1>
             
             <div className='padreCarrito'>
                 {cart.map(prod => 

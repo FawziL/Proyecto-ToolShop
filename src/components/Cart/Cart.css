@@ -5,7 +5,7 @@
     color: black;
     background-color: rgb(188, 188, 188);
     padding: 10px;
-    width: 150px;
+    width: 180px;
 }
 .botonEliminarProducto{
     background-color: white;
@@ -55,7 +55,7 @@
 }
 .contenedorComprasVacio{
     width: 100%;
-    height: 88vh;
+    height: 90vh;
     align-items: center;
     justify-content: center;
     margin: auto;
@@ -63,13 +63,14 @@
 }
 .contenedorCompras{
     width: 100%;
-    min-height: 88vh;
+    min-height: 90vh;
 }
 .noMargin{
     margin: 0px;
     padding-top: 15px;
     padding-bottom: 10px;
-}.margin{
+}
+.margin{
     margin: 10px;
 }
 .montoTotal{
@@ -82,3 +83,20 @@
     flex-wrap: wrap;
     justify-content: center;
 }
+
+
+@media (max-width: 480px) {
+    .productosCarrito{
+        padding: 15px;
+    }
+    .botonVaciar, .botonComprar, .botonEliminarProducto{
+        padding: 8px;
+    }
+    .contenedorComprasVacio{
+        height: 60vh;
+    }
+    .contenedorCompras{
+        min-height: 60vh;
+    }
+}
+    

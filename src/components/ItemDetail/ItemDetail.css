@@ -20,3 +20,22 @@
     background-color: rgb(188, 188, 188);
     border-radius: 5px;
 }
+
+@media (max-width: 480px) {
+    .CardDetail{
+        display: block;
+    }
+    .imgProductDetail{
+        width: 200px;
+        height: 230px;
+    }
+    .detalles{
+        padding: 15px;
+        margin: auto;
+        margin-bottom: 5px;
+    }
+    .detalles h3{
+        margin: 0px;
+    }
+}
+    

@@ -6,13 +6,34 @@
     width: 100%;
 }
 .loadImg{
-    width: 800px;
-    height: 650px;
+    width: 100%;
+    height: 85vh;
 }
 .tamaño{
     width: 130vh;
-    height: 600px;
+    height: 90vh;
     margin: auto;
     display: flex;
     align-items: center;
 }
+@media (max-width: 480px) {
+    .DetailsProductos{
+        background-color: rgb(137, 137, 137);
+        border-style: solid;
+        color: black;
+        text-align: center;
+        width: 100%;
+    }
+    .loadImg{
+        width: 100%;
+        height: 85vh;
+    }
+    .tamaño{
+        width: 40vh;
+        height: 80vh;
+        margin: auto;
+        display: flex;
+        align-items: center;
+    }
+}
+    

@@ -17,37 +17,58 @@ const NavBar = () => {
     }, [])
 
     return(
-        <nav className="NavBar">
-            <NavLink to='/'>
-                <p className="logo">AirT-ToolShop</p>
-            </NavLink>
-            <ul className="componentes-NavBar">
-                <li id="elements-NavBar">
-                    <NavLink to="/productos" className={({ isActive }) => (isActive ? 'navRojo' : 'navVerde')}>
-                        Productos
-                    </NavLink>
-                    <ul className="menu-vertical">
-                    {categories.map((cat) => (
-                    <NavLink
-                        key={cat.id}
-                        to={`/productos/${cat.id}`}
-                        className={({ isActive }) =>
-                            isActive ? 'navRojoDos' : 'navVerdeDos'}>
-                        {cat.description}
-                    </NavLink>
-                    ))}
-                    </ul>
-                </li>
-            </ul>
-            <NavLink to='/aboutUs' className={({ isActive }) => (isActive ? 'navRojo' : 'navVerde')}>
-               Contacto
-            </NavLink>
-            <div className='cartWidget'>
+    <nav class="navbar navbar-dark navbar-expand-lg navIndex">
+        <NavLink to='/'>
+            <p className="logo">AirT-ToolShop</p>
+        </NavLink>
+        
+        <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+        >
+        <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <ul class="navbar-nav justify-content-around collapse navbar-collapse" id="navbarNav">
+            <li class="nav-item">
+                <ul className="componentes-NavBar">
+                    <li id="elements-NavBar">
+                        <NavLink to="/productos" className={({ isActive }) => (isActive ? 'navRojo' : 'navVerde')}>
+                            Productos
+                        </NavLink>
+                            <ul className="menu-vertical">
+                            {categories.map((cat) => (
+                            <NavLink
+                                key={cat.id}
+                                to={`/productos/${cat.id}`}
+                                className={({ isActive }) =>
+                                    isActive ? 'navRojoDos' : 'navVerdeDos'}>
+                                {cat.description}
+                            </NavLink>
+                            ))}
+                            </ul>
+                    </li>
+                </ul>
+            </li>
+            <li class="nav-item">
+                <NavLink to='/aboutUs' className={({ isActive }) => (isActive ? 'navRojo' : 'navVerde')}>Contacto</NavLink>
+            </li>
+            <li class="nav-item">
                 <CartWidget />
-            </div>
-        </nav>
+            </li>
+        </ul>
+    </nav>
     )
+    
+    
+    
 }
 
 
-export default NavBar
+export default NavBar;
+

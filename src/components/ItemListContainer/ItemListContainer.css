@@ -2,3 +2,10 @@
     width: 100%;
     min-height: 90vh;
 }
+
+@media (max-width: 480px) {
+    .ContenedorProductos{
+        width: 100%;
+        min-height: 60vh;
+    }
+}
