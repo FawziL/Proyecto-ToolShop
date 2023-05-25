@@ -12,7 +12,7 @@
     margin-top: 5px;
 }
 .detalles{
-    max-width: 250px;
+    width: 250px;
     font-size: 18px;
     padding-top: 25px;
     padding: 15px;
@@ -38,4 +38,39 @@
         margin: 0px;
     }
 }
-    
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .CardDetail{
+        display: block;
+    }
+    .imgProductDetail{
+        width: 250px;
+        height: 230px;
+    }
+    .detalles{
+        padding: 15px;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+    .detalles h3{
+        margin: 0px;
+    }
+}      
+@media (min-width: 769px) and (max-width: 1024px) {
+    .CardDetail{
+        display: block;
+    }
+    .imgProductDetail{
+        width: 350px;
+        height: 250px;
+    }
+    .detalles{
+        padding: 15px;
+        margin: auto;
+        margin-bottom: 10px;
+        width: 350px;
+    }
+    .detalles h3{
+        margin: 0px;
+    }
+}

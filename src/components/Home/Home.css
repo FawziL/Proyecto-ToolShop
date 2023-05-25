@@ -40,9 +40,7 @@ h1{
 /* Para dispositivos móviles pequeños */
 @media (max-width: 480px) {
     .Home{
-      width: 100%;
       height: 80vh;
-      display: flex;
     }
     h1{
       width: 100%;
@@ -55,4 +53,19 @@ h1{
       font-size: 24px;
     }  
 }
-    
+/* Estilos para dispositivos móviles medianos */
+@media (min-width: 481px) and (max-width: 768px) {
+  .Home{
+    height: 85vh;
+  }
+  h1{
+    width: 100%;
+    padding: 0px;
+  }
+  .color{
+    width: 85%;
+  }
+  .textColor{
+    font-size: 24px;
+  } 
+}   

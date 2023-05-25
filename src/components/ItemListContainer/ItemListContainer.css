@@ -10,3 +10,9 @@
         min-height: 80vh;
     }
 }
+@media (min-width: 481px) and (max-width: 768px) {
+    .ContenedorProductos{
+        width: 100%;
+        min-height: 85vh;
+    }
+}   

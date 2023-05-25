@@ -100,4 +100,17 @@
         min-height: 80vh;
     }
 }
-    
+@media (min-width: 481px) and (max-width: 768px) {
+    .productosCarrito{
+        padding: 15px;
+    }
+    .botonVaciar, .botonComprar, .botonEliminarProducto{
+        padding: 8px;
+    }
+    .contenedorComprasVacio{
+        height: 85vh;
+    }
+    .contenedorCompras{
+        min-height: 85vh;
+    }
+} 

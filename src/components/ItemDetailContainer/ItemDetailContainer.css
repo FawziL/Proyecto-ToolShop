@@ -36,4 +36,16 @@
         align-items: center;
     }
 }
-    
+@media (min-width: 481px) and (max-width: 768px) {
+    .tamaño{
+        width: 50vh;
+        height: 90vh;
+    }
+}   
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .tamaño{
+        width: 50vh;
+        height: 90vh;
+    }
+}
