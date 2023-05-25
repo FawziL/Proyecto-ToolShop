@@ -17,6 +17,7 @@ const Cart = () => {
     }
     return (
         <div className='contenedorCompras'>
+            <div className='marginAuto'>
             <div className='flex'>
                 <h1 className='textColor'>Carrito de compras</h1>
             </div>
@@ -44,6 +45,7 @@ const Cart = () => {
                 <Link to='/checkout'>
                     <button  className='botonComprar'>Terminar compra</button>
                 </Link>
+            </div>
             </div>
         </div>
     )

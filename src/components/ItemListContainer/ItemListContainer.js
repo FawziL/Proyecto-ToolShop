@@ -35,10 +35,12 @@ const ItemListContainer = () =>{
     }
     return(
         <div className='ContenedorProductos'>
-            <div className='flex'>  
-                <h1 className='textColor'>Nuestra selección de productos</h1>
+            <div className='marginAuto'>
+                <div className='flex'>  
+                    <h1 className='textColor'>Nuestra selección de productos</h1>
+                </div>
+                <ItemList productos={productos}/>
             </div>
-            <ItemList productos={productos}/>
         </div>
     )
 }

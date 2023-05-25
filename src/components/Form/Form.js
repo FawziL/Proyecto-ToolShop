@@ -75,6 +75,7 @@ const Form = () =>{
 
     return(
         <div className='ContenedorProductos'>
+            <div className='marginAuto'>
             <div className='flex'>  
                 <h1 className='textColor'>Coloca tus datos de contacto y pago</h1>
                 <div id='confirmacion'></div>
@@ -116,6 +117,7 @@ const Form = () =>{
                     Generar Orden
                 </button>
             </div>     
+        </div>
         </div>
     )
 }

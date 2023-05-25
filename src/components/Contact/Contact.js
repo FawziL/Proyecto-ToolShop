@@ -16,11 +16,12 @@ function ContactForm() {
 
   return (
       <div className="contact-form">
+        <div className="marginAuto">
         <div className="flex">
           <h1 className="textColor">
             ¡Comunicate con nosotros!
           </h1>
-        </div>
+          </div>
         
         <form onSubmit={handleSubmit}>
           <div className="form-group">
@@ -60,6 +61,8 @@ function ContactForm() {
           </div>
           <button type="submit">Enviar</button>
         </form>
+
+      </div>
       </div>
   );
 }
