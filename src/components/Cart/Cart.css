@@ -93,10 +93,10 @@
         padding: 8px;
     }
     .contenedorComprasVacio{
-        height: 60vh;
+        height: 80vh;
     }
     .contenedorCompras{
-        min-height: 60vh;
+        min-height: 80vh;
     }
 }
     

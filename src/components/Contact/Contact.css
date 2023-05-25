@@ -53,7 +53,7 @@ button[type="submit"]:hover {
 
 @media (max-width: 480px) {
     .contact-form {
-        height: 60vh;
+        height: 80vh;
     }
     form{
         width: 300px;
